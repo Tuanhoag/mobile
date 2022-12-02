@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "name": "Trà sữa Toco Socola",
+        "image": "https://thuonghieuvietnoitieng.com/image/cache/admin/b6e81d47956a4d244614d5ec42bb9e35a74aa7bf/Tocotoco/tra-SOCOLA-toco-6-445x445.jpg",
+        "price": 40000,
+        "owner": "Tocotoco",
+        "ice": [
+            "0%",
+            "30%",
+            "50%",
+            "70%",
+            "100%"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": "Toco Socola khiến các khách hàng phải mê mẩn bởi hương thơm đặc trưng, một chút đắng, chút ngọt, tất cả được kết hợp với vị mềm thơm của Trân châu, béo ngậy của Pudding"
+    },
+    {
+        "id": 1,
+        "name": "Trà sữa Hokkaidou",
+        "image": "https://thuonghieuvietnoitieng.com/image/cache/admin/b6e81d47956a4d244614d5ec42bb9e35a74aa7bf/Tocotoco/TRA-SUA-HOKKAIDOU-2-445x445.jpg",
+        "price": 30000,
+        "owner": "Tocotoco",
+        "ice": [
+            "0%",
+            "30%",
+            "50%",
+            "70%",
+            "100%"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": "Trà sữa Hokkaido là tên gọi của 1 sản phẩm trà sữa quá ư nức tiếng thức uống kiểu mới gắn liền với tên tuổi của nhiều chuỗi trà sữa Toco, còn chờ gì nữa hãy nhanh cùng trải nghiệm trà sữa Hokkaido vị đặc thù là mùi vị caramel ngọt béo ngậy chén kèm với Popping."
+    },
+    {
+        "id": 2,
+        "name": "Trà Sakura ngân nhĩ",
+        "image": "https://thuonghieuvietnoitieng.com/image/cache/admin/b6e81d47956a4d244614d5ec42bb9e35a74aa7bf/Tocotoco/TRA-SAKURA-NGAN-NHI-3-445x445.jpeg",
+        "price": 30000,
+        "owner": "Ding Tea",
+        "ice": [
+            "0%",
+            "30%",
+            "50%",
+            "70%",
+            "100%"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": "Trà hoa quả Sakura Ngân Nhĩ là loại trà tốt cho sức khỏe với nhiều thành phần đặc biệt như trà ô long tứ quý, hoa anh đào, ngân nhĩ... Trà sakura ngân nhĩ (sakura snow fungus tea) chứa những nguyên liệu tốt cho sức khỏe và làm đẹp nhờ công thức độc đáo. "
+    },
+    {
+        "id": 3,
+        "name": "Trà hoa quả tươi",
+        "image": "https://thuonghieuvietnoitieng.com/image/cache/admin/b6e81d47956a4d244614d5ec42bb9e35a74aa7bf/Tocotoco/HONGTRA-445x445.jpg",
+        "price": 30000,
+        "owner": "Fly Tea",
+        "ice": [
+            "0%",
+            "30%",
+            "50%",
+            "70%",
+            "100%"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": "Nhắc đến trà hoa quả, TocoToco đặc biệt tập trung vào các loại trà thanh nhiệt, giữ dáng và thật sự healthy, quá trình tìm kiếm vùng nguyên liệu trái cây đã tạo ra những sản phẩm tốt cho quá trình làm đẹp. "
+    }
+]

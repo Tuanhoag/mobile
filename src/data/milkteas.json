@@ -1,0 +1,102 @@
+[
+    {
+        "id": 0,
+        "name": "Trà Sữa Trân Châu Hoàng Gia",
+        "image": "https://thuonghieuvietnoitieng.com/image/cache/admin/b6e81d47956a4d244614d5ec42bb9e35a74aa7bf/Tocotoco/TRA-SUA-TRAN-CHAU-HOANG-GIA-445x445.jpg",
+        "price": 40000,
+        "owner": "Tocotoco",
+        "ice": [
+            "0%",
+            "30%",
+            "50%",
+            "70%",
+            "100%"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": "Trà sữa trân châu Hoàng Gia TocoToco, một phiên bản hoàn hảo của Trà sữa truyền thống bởi sự kết hợp giữa sữa bột Non-Dairy Creamer, hồng trà và trân châu đen nhánh"
+    },
+    {
+        "id": 1,
+        "name": "Trà Sữa PanDa",
+        "image": "https://thuonghieuvietnoitieng.com/image/cache/admin/b6e81d47956a4d244614d5ec42bb9e35a74aa7bf/Tocotoco/TRA-SUA-PANDA-445x445.jpg",
+        "price": 30000,
+        "owner": "Tocotoco",
+        "ice": [
+            "0%",
+            "30%",
+            "50%",
+            "70%",
+            "100%"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": "Trà sữa Panda được trình bày trong cốc nhựa, khách hàng hoàn toàn có thể chiêm ngưỡng vẻ đẹp của sản phẩm qua màu kem sữa kết hợp cùng những viên trân châu đen nhánh và trân châu sợi vàng óng."
+    },
+    {
+        "id": 2,
+        "name": "Trà xanh sữa vị nhài",
+        "image": "https://thuonghieuvietnoitieng.com/image/cache/admin/b6e81d47956a4d244614d5ec42bb9e35a74aa7bf/Tocotoco/TRA-XANH-SUA-VI-NHAI-2-445x445.jpg",
+        "price": 30000,
+        "owner": "Ding Tea",
+        "ice": [
+            "0%",
+            "30%",
+            "50%",
+            "70%",
+            "100%"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": "Xanh sữa với vị trà xanh Nhài được kết hợp hài hòa cùng sữa béo ngậy của Toco chắc chắn sẽ mag đến cho bạn một cảm sảng khoái khi sử dụng, đặc biệt trong những ngày mưa mà được uống cốc trà sữa nóng thì còn gì tuyệt vời bằng. "
+    },
+    {
+        "id": 3,
+        "name": "Trà sữa ba anh em",
+        "image": "https://thuonghieuvietnoitieng.com/image/cache/admin/b6e81d47956a4d244614d5ec42bb9e35a74aa7bf/Tocotoco/TRA-SUA-BA-ANH-EM-5-445x445.jpg",
+        "price": 30000,
+        "owner": "Tocotoco",
+        "ice": [
+            "0%",
+            "30%",
+            "50%",
+            "70%",
+            "100%"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": "Trà sữa Ba Anh em nằm trong Top 10 Best Seller Menu là sự hòa quyện giữ vị nồng đặc trưng từ hồng trà sữa kết hợp với mùi sữa thơm ngậy. "
+    },
+    {
+        "id": 4,
+        "name": "Trà Sữa Bạc Hà",
+        "image": "https://thuonghieuvietnoitieng.com/image/cache/admin/b6e81d47956a4d244614d5ec42bb9e35a74aa7bf/Tocotoco/TRA-SUA-BAC-HA-445x445.jpg",
+        "price": 30000,
+        "owner": "Fly Tea",
+        "ice": [
+            "0%",
+            "30%",
+            "50%",
+            "70%",
+            "100%"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": "Trà sữa bạc hà sẽ mang đến cho người dùng cảm giác mát lạnh vào sâu trong cơ thể khi thưởng thức. Khác với những thương hiệu khác, trà sữa bạc hà của Toco Toco có vị thanh nhẹ chứ không hề ngọt sắc."
+    }
+]
