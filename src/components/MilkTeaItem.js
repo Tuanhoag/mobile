@@ -20,7 +20,7 @@ function MilkTeaItem(props) {
         <Text
           numberOfLines={1}
           style={{
-            color: '#000',
+            color: 'green',
             fontWeight: 'bold',
             marginVertical: 8,
           }}
@@ -28,7 +28,7 @@ function MilkTeaItem(props) {
           {item?.name}
         </Text>
         <View style={{ flexDirection: 'row' }}>
-          <Text style={{ color: '#2FDBBC', fontWeight: 'bold', flex: 1 }}>
+          <Text style={{ color: '#fff', fontWeight: 'bold', flex: 1 }}>
             {item?.price} VND
           </Text>
           <View
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     width: 150,
     borderRadius: 14,
     overflow: 'hidden',
-    backgroundColor: '#fff',
+    backgroundColor: '#2FDBBC',
     marginLeft: 12,
     flex: 1,
     marginBottom: 20,

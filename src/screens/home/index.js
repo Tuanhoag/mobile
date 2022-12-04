@@ -32,48 +32,21 @@ export default function HomeScreen({ navigation }) {
       }!`}</Text>
       <View
         style={{
-          backgroundColor: '#67E5CE',
+          backgroundColor: 'pink',
           padding: 20,
           borderRadius: 12,
           marginTop: 20,
         }}
       >
+        <Image
+        style={{width: '100%', height: 300, borderRadius: 12}}
+        source={{uri: '//images.foody.vn/images/Untitled-1-2.png'}}
+        />
         <View style={{ flexDirection: 'row', alignItems: 'baseline' }}>
-          <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 18 }}>
-            GIẢM
-          </Text>
-          <Text
-            style={{
-              color: '#000',
-              fontWeight: 'bold',
-              fontSize: 24,
-            }}
-          >
-            {' 50% '}
-          </Text>
-          <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 18 }}>
-            CHO NGƯỜI MỚI
+          <Text style={{ color: 'black', fontWeight: 'bold', fontSize: 20 }}>
+            Trà Sữa Tocotoco
           </Text>
         </View>
-        <Text
-          style={{
-            color: '#fff',
-            fontWeight: 'bold',
-            fontSize: 10,
-            marginTop: 30,
-          }}
-        >
-          SỰ DỤNG CODE NÀY
-        </Text>
-        <Text
-          style={{
-            color: '#000',
-            fontWeight: 'bold',
-            fontSize: 24,
-          }}
-        >
-          SIUU
-        </Text>
       </View>
       <View style={styles.sectionContainer}>
         <Text style={styles.title}>Đồ uống HOT</Text>

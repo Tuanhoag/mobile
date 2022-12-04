@@ -38,30 +38,29 @@ export default function LoginScreen({ navigation }) {
   }, [])
   const login = async () => {
     console.log(userData);
-    axios.get('https://638a00e04eccb986e8a0b669.mockapi.io/users').then(response => {
-      // let userData = response.data.Object;
-      if (userData) {
-        let arr = [...userData];
-        console.log(arr);
-        arr = arr.filter(
-          (value) =>
-            value.account.toLocaleLowerCase() == taikhoan.toLocaleLowerCase() &&
-            value.password == matkhau
-        );
+    const res = await axios.get('https://638a00e04eccb986e8a0b669.mockapi.io/users')
+    const data = await res.data;
+    if (data) {
+      let arr = [...data];
+      console.log(arr);
+      arr = arr.filter(
+        (value) =>
+          value.account.toLocaleLowerCase() == taikhoan.toLocaleLowerCase() &&
+          value.password == matkhau
+      );
 
-        if (arr.length > 0) {
-          //alert('Đăng nhập thành công', arr[0].taikhoan)
-          arr[0].taikhoan;
-          //console.log(arr[0]);
-          let curUser = arr[0];
+      if (arr.length > 0) {
+        //alert('Đăng nhập thành công', arr[0].taikhoan)
+        arr[0].taikhoan;
+        //console.log(arr[0]);
+        let curUser = arr[0];
 
-          AsyncStorage.setItem('curUser', JSON.stringify(curUser));
-          navigation.replace('HomeTab');
-        } else alert('Tài khoản hoặc mật khẩu không chính xác!');
-      } else {
-        alert('Tài khoản hoặc mật khẩu không chính xác!');
-      }
-    });
+        AsyncStorage.setItem('curUser', JSON.stringify(curUser));
+        navigation.replace('HomeTab');
+      } else alert('Tài khoản hoặc mật khẩu không chính xác!');
+    } else {
+      alert('Tài khoản hoặc mật khẩu không chính xác!');
+    }
   };
 
   const goToSignUp = async () => {
@@ -168,13 +167,13 @@ export default function LoginScreen({ navigation }) {
           </View>
           <MainButton
             style={{ marginTop: 20 }}
-            title={'Đăng Nhập'}
+            title={'Login'}
             onPress={goToHome}
           />
           <Text style={{ marginTop: 10, marginLeft: 18, fontStyle: 'italic', color: '#444' }}>Don't have on account?</Text>
           <MainButton
             style={{ marginTop: 6 }}
-            title={'Đăng Ký'}
+            title={'Register'}
             isSubButton={true}
             onPress={goToSignUp}
           />

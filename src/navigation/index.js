@@ -4,6 +4,7 @@ import React from "react";
 import MilkTeaDetailScreen from "../screens/milkTeaDetail";
 import LoginScreen from "../screens/login";
 import SignUpScreen from "../screens/signUp";
+import ForgotScreen from "../screens/forgotpass"
 import HomeTab from "./homeTab";
 const Stack = createStackNavigator();
 
@@ -17,6 +18,7 @@ function AppNavigation() {
       >
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="SignUpScreen" component={SignUpScreen} />
+        <Stack.Screen name="ForgotScreen" component={ForgotScreen} />
         <Stack.Screen name="HomeTab" component={HomeTab} />
         <Stack.Screen name="MilkTeaDetailScreen" component={MilkTeaDetailScreen} />
       </Stack.Navigator>
